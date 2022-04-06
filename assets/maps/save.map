@@ -1,0 +1,157 @@
+{
+    "map": {
+        "file": "./share/proj/assets/maps//arena-test.map"
+    },
+    "root": {
+        "nodes": {
+            "directional light E959": {
+                "casts_shadows": false,
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "intensity": 50.0,
+                "is_static": true,
+                "nodes": null,
+                "position": [
+                    3.5999999046325684,
+                    5.900000095367432,
+                    1.2999999523162842
+                ],
+                "rotation": [
+                    0.7467576265335083,
+                    0.0,
+                    0.0,
+                    -0.6650962829589844
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "type": "Directional light"
+            },
+            "object E946": {
+                "nodes": {
+                    "import[953]": {
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "sourceFile": "./share/proj/assets/obj//arena-test.glb",
+                        "type": "Imported file"
+                    }
+                },
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "type": "gameObject"
+            },
+            "enemySpawner": {
+                "nodes": {
+                    "object E11045": {
+                        "nodes": null,
+                        "position": [
+                            10.700000762939453,
+                            30.7915937900543213,
+                            0.800000011920929
+                        ],
+                        "rotation": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "type": "gameObject"
+                    },
+                    "object E468": {
+                        "nodes": null,
+                        "position": [
+                            0.30000001192092896,
+                            30.9243642091751099,
+                            -10.200000762939453
+                        ],
+                        "rotation": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "type": "gameObject"
+                    }
+                },
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "type": "gameObject"
+            }
+        },
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "type": "gameObject"
+    }
+}
